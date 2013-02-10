@@ -23,8 +23,8 @@ public class ConnectionMySQL extends javax.swing.JFrame{
 		try {
 
 			String connectionURL = "jdbc:mysql://lmsaoulos.dyndns-at-home.com:3306/soften";
-			String username = "XXXXX";  ////Kvdikoi sto mail
-			String password = "XXXXX";  ////Gia localhost root toor
+			String username = "XXXXX";  ////Oi kvdikoi gia online sto mail
+			String password = "XXXXX";  ////Gia localhost username: root password: toor
 
 			conn = DriverManager.getConnection(connectionURL, username,
 					password);
